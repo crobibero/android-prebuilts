@@ -2,14 +2,12 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := privapp-permissions-com.aurora.services.xml
-LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/permissions
+LOCAL_MODULE_PATH := $(TARGET_OUT_PRODUCT_ETC)/permissions
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE := auroraservices
 LOCAL_SRC_FILES := AuroraServices_v1.1.1.apk
 LOCAL_MODULE_CLASS := APPS
